@@ -1,0 +1,46 @@
+.hero {
+    max-height: 25vh !important;
+}
+.brev {
+    display: flex !important;
+    flex-direction: row !important;
+    height: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    background-color: rgba(250, 249, 249, 0.8) !important;
+}
+.time {
+    margin-top: 5%;
+    margin-left: 15%;
+    display: flex !important;
+    flex-direction: column !important;
+}
+.add {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 2%;
+    display: flex !important;
+    flex-direction: column !important;
+}
+.map {
+    width: 50vw !important;
+}
+@media only screen and (max-width: 922px) {
+    .brev {
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+    .add {
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+    }
+    .time {
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+}
