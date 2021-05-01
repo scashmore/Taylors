@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import { Card, Carousel } from 'react-bootstrap'
 import green from '../../images/green.png'
 
 function Greenville() {

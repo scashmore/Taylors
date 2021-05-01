@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Navbar, Nav, NavDropdown, Form, Button, FormControl } from 'react-bootstrap'
 import logo from '../../images/logo.png'
 
@@ -6,7 +7,7 @@ function Header() {
     return (
         <>
             <Navbar bg="light" expand="lg" sticky="top">
-            <Navbar.Brand>
+                <Navbar.Brand>
                     <img
                         src={logo}
                         width="220vw"
@@ -17,21 +18,11 @@ function Header() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                    <Nav.Item>
-                            <Nav.Link href="#home">Home</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href="#aboutus">About</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href="#brevard">Brevard</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href="#asheville">Asheville</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href="#greenville">Greenville</Nav.Link>
-                        </Nav.Item>
+                        <Nav.Link><Link className="linkcol" to="/">Home</Link></Nav.Link>
+                        <Nav.Link><Link className="linkcol" to="/about">About</Link></Nav.Link>
+                        <Nav.Link><Link className="linkcol" to="/brevard">Brevard</Link></Nav.Link>
+                        <Nav.Link><Link className="linkcol" to="/asheville">Asheville</Link></Nav.Link>
+                        <Nav.Link><Link className="linkcol" to="/greenville">Greenville</Link></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
