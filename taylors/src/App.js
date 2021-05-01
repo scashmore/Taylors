@@ -8,12 +8,15 @@ import Asheville from './pages/Asheville'
 import Greenville from './pages/Greenville'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route } from 'react-router-dom'
+import Confetti from 'react-confetti'
 
 function App() {
   return (
   <>
   <BrowserRouter>
-    <div className="App bg"></div>
+    <div className="App bg">
+      <Confetti className='confetti'/>
+    </div>
       <Header />
       <Route exact path='/' component={Home} />
           <Route exact path='/brevard' component={Brevard} />

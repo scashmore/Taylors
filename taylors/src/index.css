@@ -6,8 +6,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.confetti {
+  display: none;
+}
 
 @media only screen and (min-width: 922px) {
+  .confetti {
+    display: block;
+    z-index: -4 !important;
+    width: 100vw;
+    position: fixed !important;
+  }
 
  .bg:after {
   content: "";
