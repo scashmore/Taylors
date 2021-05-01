@@ -1,0 +1,9 @@
+.foot {
+    justify-content: center !important;
+    display: flex !important;
+}
+.icon {
+    margin-left:2%; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
