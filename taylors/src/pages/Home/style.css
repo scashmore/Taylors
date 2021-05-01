@@ -1,0 +1,19 @@
+.hero {
+    max-height: 25vh !important;
+}
+.home {
+    display: flex !important;
+    flex-direction: row !important;
+    height: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    background-color: rgba(250, 249, 249, 0.8) !important;
+}
+.img {
+    margin-left: 3%;
+}
