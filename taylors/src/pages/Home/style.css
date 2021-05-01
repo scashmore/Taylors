@@ -18,6 +18,8 @@
     margin-left: 3%;
 }
 .hot {
+    display: flex !important;
+    flex-direction: column !important;
     height: 50%;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -28,4 +30,13 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     background-color: rgba(250, 249, 249, 0.8) !important;
     text-align: center;
+}
+.carousel {
+    max-width: 50% !important;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.items {
+    background-color: transparent !important;
+    border: none !important;
 }
