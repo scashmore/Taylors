@@ -9,7 +9,7 @@ body {
 
 @media only screen and (min-width: 922px) {
 
-.bg:before, .bg:after {
+ .bg:after {
   content: "";
   z-index: -5;
   position: fixed;
@@ -18,7 +18,7 @@ body {
   background-image: url('./images/gif.gif');
   background-size: cover;
   background-repeat: repeat-x;
-  background-position-y: 20%;
+  background-position-y: 0%;
   animation: move 45s infinite linear;
 }
 
@@ -30,7 +30,7 @@ body {
 
 @keyframes move {
   from {transform: translateX(  50%);}
-    to {transform: translateX(-260%);}
+    to {transform: translateX(-160%);}
 }
 }
 
