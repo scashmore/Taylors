@@ -22,8 +22,8 @@ body {
   content: "";
   z-index: -5;
   position: fixed;
-  width: 80vw;
-  height: 80vh;
+  width: 100vw;
+  height: 100vh;
   background-image: url('./images/gif.gif');
   background-size: cover;
   background-repeat: repeat-x;
@@ -38,8 +38,8 @@ body {
 }
 
 @keyframes move {
-  from {transform: translateX(  50%);}
-    to {transform: translateX(-160%);}
+  from {transform: translateX(  40%);}
+    to {transform: translateX(-150%);}
 }
 }
 
