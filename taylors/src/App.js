@@ -15,7 +15,7 @@ function App() {
   <>
   <BrowserRouter>
     <div className="App bg">
-      <Confetti className='confetti'/>
+      <Confetti className='confetti' initialVelocityX={4} initialVelocityY={-4} opacity={.8} gravity={.05}/>
     </div>
       <Header />
       <Route exact path='/' component={Home} />
