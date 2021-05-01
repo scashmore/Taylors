@@ -12,7 +12,7 @@
     padding: 2%;
     font-size: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-    background-color: rgba(250, 249, 249, 0.8) !important;
+    background-color: rgba(255, 97, 23, 0.8) !important;
 }
 .time {
     margin-top: 5%;
@@ -23,7 +23,7 @@
 .add {
     margin-top: 10%;
     margin-left: 10%;
-    margin-right: 2%;
+    margin-right: 5%;
     display: flex !important;
     flex-direction: column !important;
 }
@@ -43,4 +43,13 @@
         margin-top: 0 !important;
         margin-left: 0 !important;
     }
+    .bg {
+        background-image: url('../../images/bg2.png');
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-origin: border-box;
+        background-attachment: fixed;
+        z-index: -5;
+   }
 }

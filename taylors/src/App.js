@@ -10,7 +10,7 @@ function App() {
   <>
     <div className="App bg"></div>
       <Header />
-      <Brevard />
+      <Home />
       <Footer />
     </>
   );

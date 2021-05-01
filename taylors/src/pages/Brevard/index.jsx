@@ -5,7 +5,7 @@ import brvd from '../../images/brvd.png'
 
 function Brevard() {
     return (
-        <>
+        <div className="bg">
             <Card>
                 <Card.Img className="hero" src='https://picsum.photos/200/300?grayscale' />
             </Card>
@@ -29,7 +29,7 @@ function Brevard() {
                 <a href="https://www.google.com/maps/search/o+p+taylor's/@35.2334612,-82.7365643,15.67z" target="_blank"><img className="map" src={brvd}/></a>
                 
             </Card>
-        </>
+        </div>
     )
 }
 

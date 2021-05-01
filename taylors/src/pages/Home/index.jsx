@@ -5,7 +5,7 @@ import './style.css'
 function Home() {
     return (
         <>
-            <div>
+            <div className="bg">
                 <Card>
                     <Card.Img className="hero" src='https://picsum.photos/200/300?grayscale' />
                 </Card>
@@ -58,9 +58,10 @@ function Home() {
                         </Carousel>
                     </Card>
                 </Card>
-                <Card className='home'>
+                <Card className='store'>
                     <p>
-                        Can't make it to one of our locations? Then checkout our online store on Amazon! {' '}
+                        Can't make it to one of our locations? Then checkout our online store on Amazon! 
+                        <br></br>
                         <a href="https://www.amazon.com/s?me=A1LTJY4HYKZU11&marketplaceID=ATVPDKIKX0DER&redirect=true" target="_blank">
                             Click here to shop online now!</a>
                     </p>
