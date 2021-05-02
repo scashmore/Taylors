@@ -1,14 +1,13 @@
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './pages/Home'
-import About from './pages/About'
-import Brevard from './pages/Brevard'
-import Asheville from './pages/Asheville'
-import Greenville from './pages/Greenville'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Route } from 'react-router-dom'
-import Confetti from 'react-confetti'
+import Home from './pages/Home';
+import About from './pages/About';
+import Brevard from './pages/Brevard';
+import Asheville from './pages/Asheville';
+import Greenville from './pages/Greenville';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Confetti from 'react-confetti';
 
 function App() {
   return (
