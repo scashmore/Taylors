@@ -55,13 +55,16 @@
     box-shadow: 10px 5px 5px rgba(182, 178, 178, 0.6) !important;
 }
 .carousel {
-    max-width: 50% !important;
-    margin-left: 25%;
-    margin-right: 25%;
+    max-width: 40% !important;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 .items {
     background-color: transparent !important;
     border: none !important;
+}
+.hotitems {
+    margin-left: 30%;
 }
 @media only screen and (max-width: 922px) {
     .home {

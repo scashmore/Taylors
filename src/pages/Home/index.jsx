@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, Carousel } from 'react-bootstrap'
 import './style.css'
+import items from '../../images/items.png'
 
 function Home() {
     return (
@@ -20,7 +21,10 @@ function Home() {
                     <img className="img" src='https://picsum.photos/400/300?grayscale' />
                 </Card>
                 <Card className='hot'>
-                    <h1>Hot Items</h1>
+                    <img 
+                        width="40%"
+                        src={items}
+                        className="hotitems"/>
                     <Card className="items">
                         <Carousel className="carousel">
                             <Carousel.Item>

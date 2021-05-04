@@ -5,6 +5,9 @@
 .logo {
     width: 40vw;
 }
+.mr-auto {
+    margin-top: 6%;
+}
 @media only screen and (max-width: 922px) {
     .logo {
         width: 60vw;
