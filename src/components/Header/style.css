@@ -1,0 +1,12 @@
+.linkcol {
+    color: black !important;
+    font-size: 30px;
+}
+.logo {
+    width: 40vw;
+}
+@media only screen and (max-width: 922px) {
+    .logo {
+        width: 60vw;
+    }
+}

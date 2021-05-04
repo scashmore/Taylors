@@ -12,7 +12,7 @@ function Home() {
                 <Card className="home">
                     <p>The original store, located in beautiful downtown Brevard, North Carolina,
                     is over 6,000 square feet of fun and hands-on excitement. There is a reason
-                    that O.P. Taylor’s continues to be the #1 toy store in the south, so come and experience
+                    that O.P. Taylor’s continues to be the #1 toy store in the South, so come and experience
                     it for yourself!​ All of O.P. Taylor’s stores are strategically located near
                     terrific restaurants and other fascinating stores. Either make a day of it
                     and visit one of our stores, or, get up early and visit all three. We can’t
@@ -60,7 +60,7 @@ function Home() {
                 </Card>
                 <Card className='store'>
                     <p>
-                        Can't make it to one of our locations? Then checkout our online store on Amazon! 
+                        Can't make it to one of our locations? Then checkout our Amazon store! 
                         <br></br>
                         <a href="https://www.amazon.com/s?me=A1LTJY4HYKZU11&marketplaceID=ATVPDKIKX0DER&redirect=true" target="_blank">
                             Click here to shop online now!</a>

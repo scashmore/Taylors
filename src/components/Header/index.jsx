@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Navbar, Nav, NavDropdown, Form, Button, FormControl } from 'react-bootstrap'
 import logo from '../../images/logo.png'
+import './style.css'
 
 function Header() {
     return (
@@ -11,7 +12,7 @@ function Header() {
                     <img
                         src={logo}
                         width="220vw"
-                        className="d-inline-block align-top"
+                        className="d-inline-block align-top logo"
                         alt="OPT logo"
                     />
                 </Navbar.Brand>
