@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import { Card, Carousel } from 'react-bootstrap'
 import green from '../../images/green.png'
+import gvl from '../../images/gvl.jpg'
 
 function Greenville() {
     return (
@@ -17,7 +18,7 @@ function Greenville() {
                     <h2>Sunday</h2>
                     <h3>12 pm - 5 pm</h3>                    
                 </div>
-                <img className="img" src='https://picsum.photos/400/300?grayscale' />
+                <img className="imgs" src={gvl} />
             </Card>
             <Card className="green">
                 <div className="add">

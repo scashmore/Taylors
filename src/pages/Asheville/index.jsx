@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import { Card, Carousel } from 'react-bootstrap'
 import ash from '../../images/ash.png'
+import avl from '../../images/avl.png'
 
 function Asheville() {
     return (
@@ -17,7 +18,7 @@ function Asheville() {
                     <h2>Sunday</h2>
                     <h3>12 pm - 5 pm</h3>                    
                 </div>
-                <img className="img" src='https://picsum.photos/400/300?grayscale' />
+                <img className="imgs" src={avl} width="400px" height="300px" />
             </Card>
             <Card className="ash">
                 <div className="add">

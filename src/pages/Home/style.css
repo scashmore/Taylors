@@ -34,7 +34,7 @@
     justify-content: center !important;
     box-shadow: 10px 5px 5px rgba(182, 178, 178, 0.6) !important;
 }
-.img {
+.imgs {
     margin-left: 3%;
 }
 .hot {
@@ -81,5 +81,8 @@
          background-origin: border-box;
          background-attachment: fixed;
          z-index: -5;
+    }
+    .imgs {
+        margin-left: none;
     }
 }

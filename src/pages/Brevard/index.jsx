@@ -2,6 +2,7 @@ import React from 'react'
 import { Card, Carousel } from 'react-bootstrap'
 import './style.css'
 import brvd from '../../images/brvd.png'
+import brvd1 from '../../images/brvd.jpg'
 
 function Brevard() {
     return (
@@ -15,9 +16,9 @@ function Brevard() {
                     <h2>Monday - Saturday</h2>
                     <h3>10 am - 6 pm</h3>
                     <h2>Sunday</h2>
-                    <h3>12 pm - 5 pm</h3>                    
+                    <h3>12 pm - 5 pm</h3>
                 </div>
-                <img className="img" src='https://picsum.photos/400/300?grayscale' />
+                <img className="imgs" src={brvd1} width="400px" height="300px" />
             </Card>
             <Card className="brev">
                 <div className="add">

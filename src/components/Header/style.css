@@ -3,10 +3,10 @@
     font-size: 22px;
 }
 .logo {
-    width: 30vw;
+    width: 10vw;
 }
 .mr-auto {
-    margin-top: 6%;
+    margin-top: none;
 }
 @media only screen and (max-width: 922px) {
     .logo {

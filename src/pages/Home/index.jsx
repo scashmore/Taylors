@@ -1,14 +1,20 @@
-import React from 'react'
-import { Card, Carousel } from 'react-bootstrap'
-import './style.css'
-import items from '../../images/items.png'
+import React from 'react';
+import { Card, Carousel } from 'react-bootstrap';
+import './style.css';
+import items from '../../images/items.png';
+import squrl from '../../images/squrl.jpg';
+import star from '../../images/star.jpg';
+import play from '../../images/play.png';
+import ball from '../../images/ball.jpg';
+import logo from '../../images/logo.png';
+import pusheen from '../../images/pusheen.png';
 
 function Home() {
     return (
         <>
             <div className="bg">
                 <Card>
-                    <Card.Img className="hero" src='https://picsum.photos/200/300?grayscale' />
+                    <Card.Img className="hero" src={logo} />
                 </Card>
                 <Card className="home">
                     <p>The original store, located in beautiful downtown Brevard, North Carolina,
@@ -18,7 +24,7 @@ function Home() {
                     terrific restaurants and other fascinating stores. Either make a day of it
                     and visit one of our stores, or, get up early and visit all three. We can’t
                         wait to see you!</p>
-                    <img className="img" src='https://picsum.photos/400/300?grayscale' />
+                    <img className="img" src={squrl} height="400px" />
                 </Card>
                 <Card className='hot'>
                     <img 
@@ -30,33 +36,47 @@ function Home() {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="https://picsum.photos/200/150?grayscale"
+                                    src={star}
+                                    width="200px"
+                                    height="325px"
                                     alt="First slide"
                                 />
                                 <Carousel.Caption>
-                                    <h3>First slide label</h3>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="https://picsum.photos/200/150?grayscale"
+                                    src={play}
+                                    width="200px"
+                                    height="325px"
                                     alt="Second slide"
                                 />
 
                                 <Carousel.Caption>
-                                    <h3>Second slide label</h3>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="https://picsum.photos/200/150?grayscale"
+                                    src={ball}
+                                    width="200px"
+                                    height="325px"
                                     alt="Third slide"
                                 />
 
                                 <Carousel.Caption>
-                                    <h3>Third slide label</h3>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={pusheen}
+                                    width="200px"
+                                    height="325px"
+                                    alt="Foorth slide"
+                                />
+                                <Carousel.Caption>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
